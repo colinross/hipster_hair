@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @style.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @style.description %>
+</p>
+
+<p>
+  <strong>Photo url:</strong>
+  <%= @style.photo_url %>
+  <br />
+  <img src="<%= style.photo_url %>" style="max-height: 400px;" />
+
+</p>
+
+<%= link_to 'Edit', edit_style_path(@style) %> |
+<%= link_to 'Back', styles_path %>

@@ -6,3 +6,7 @@ Docker Environment Setup (First Run):
 
 Head over to http://localhost:3000/
 
+
+Credit to http://hairstyleonpoint.com/10-stylish-hipster-hairstyles/
+  for seed ideas and photos
+

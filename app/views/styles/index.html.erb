@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+<h1>Style! For the modern man</h1>
+
+<div class="photos">
+  <% @styles.each do |style| %>
+    <div>
+      <h3><%= style.title %><h3>
+      <a href="<%= edit_style_path(style) %>"><img src="<%= style.photo_url %>" style="max-height: 400px;"></a>
+    </div>
+  <% end %>
+</div>
+
+<br>
+
+<%= link_to 'New Style', new_style_path %>
